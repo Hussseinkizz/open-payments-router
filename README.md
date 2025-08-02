@@ -30,6 +30,10 @@ It has a pool of payment provider integration implementations implemented and re
 - Security
 - Web platform
 
+## Completed And In Progress Modules
+
+- handle IPN (80% - hono and express so far, see [add-ipn](./docs/add-ipn.md))
+
 ## Score System
 
 - Ratings And Reviews
