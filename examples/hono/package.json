@@ -1,0 +1,17 @@
+{
+  "name": "opr-hono-example",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.8.10",
+    "@hono/node-server": "^1.7.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

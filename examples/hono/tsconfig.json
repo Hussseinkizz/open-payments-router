@@ -1,0 +1,15 @@
+{
+  "extends": "../../packages/core/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@open-payments-router/core/*": ["../../packages/core/src/*"]
+    }
+  },
+  "include": ["./**/*.ts"]
+}
